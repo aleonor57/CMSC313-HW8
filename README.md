@@ -2,7 +2,7 @@
 
 AUTHORING: Aldrich Leonor UMBC CMSC313 (4/16/2025, 10:00 am)
 
-PURPOSE OF SOFTWARE: 
+PURPOSE OF SOFTWARE: Create an implimentation of a matrix library in both C++ and C.
 
 FILES:
 - matrixCPP.h - Header file for the C++ implimentation
