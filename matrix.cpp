@@ -1,33 +1,6 @@
+#include "matrixCPP.h"
+
 #include <iostream>
-using namespace std;
-
-class Matrix{
-    public:
-    Matrix();
-    Matrix(int values[], int x, int y);
-    ~Matrix();
-    void clear();
-    void printMatrix();
-    int** getMatrix();
-    void setMatrix(Matrix* x);
-    int getWidth();
-    int getLength();
-    Matrix* add(Matrix* x);
-    Matrix* multiply(Matrix *x);
-    Matrix* multiply(int x);
-    Matrix* transpose();
-    int **arr;
-
-    private:
-    int length;
-    int width;
-};
-
-Matrix::Matrix(){
-    width = 0;
-    length = 0;
-    arr = nullptr;
-}
 
 Matrix::Matrix(int values[], int x, int y){
     width = x;
@@ -158,7 +131,6 @@ int main() {
     int C[6] = {2,4,6,1,3,5};
     Matrix c(C,3,2);
     Matrix d;
-
 
     d.setMatrix(a.add((b.multiply(3))->multiply(c.transpose())));
     d.printMatrix();
