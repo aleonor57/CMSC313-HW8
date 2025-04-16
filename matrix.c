@@ -1,3 +1,5 @@
+#include "matrixC.h"
+
 #include <stdlib.h>
 #include <iostream>
 
