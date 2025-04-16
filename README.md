@@ -11,7 +11,13 @@ FILES:
 - matrixC.c - C implimentation of the matrix library
      
 BUILD INSTRUCTIONS: 
+- Download files
+- Compile the c and cpp files using the terminal command "g++ FILENAME -o EXENAME"
+- Run with ./EXENAME
 
 TESTING METHODOLOGY: 
+- Tested individual functions with different value matrices
+- Tested cases for square and nonsquare matrices
+- Tested overloaded multiply function for scalar and matrix multiplication 
 
 ADDITIONAL INFORMATION:
